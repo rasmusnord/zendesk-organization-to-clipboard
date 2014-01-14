@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Zendesk Organization to Clipboard",
+	"description": "This Chrome Extension makes it easy to copy the organisation label on a ticket in Zendesk to the clipboard.",
+	"version": "1.0.0",
+	"background":
+	{
+		"scripts":
+		[
+			"scripts/background.js"
+		]
+	},
+	"permissions":
+	[
+		"activeTab",
+		"clipboardWrite"
+	],
+	"browser_action":
+	{
+		"default_icon": "images/icon.png"
+	}
+}
