@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Options</title>
+	<link rel="stylesheet" href="/stylesheets/options.css">
+</head>
+<body>
+	<form>
+		<fieldset class="box">
+			<label class="label">External search URLs that open in new tabs</label>
+			<p class="note">Example: https://www.google.com/?q={organization}</p>
+			<input data-option-id="search_url_1" class="text-input" type="text" placeholder="Search URL 1">
+			<input data-option-id="search_url_2" class="text-input" type="text" placeholder="Search URL 2">
+			<input data-option-id="search_url_3" class="text-input" type="text" placeholder="Search URL 3">
+		</fieldset>
+		<fieldset class="box">
+			<input id="save-button" class="button" type="button" value="Save">
+		</fieldset>
+	</form>
+	<script src="/scripts/options.js"></script>
+</body>
+</html>

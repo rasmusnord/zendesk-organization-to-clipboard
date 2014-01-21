@@ -20,3 +20,11 @@ Do the following to load the extension in developer mode.
 3. Click `Keyboard shortcuts`
 4. Select a keyboard shortcut
 5. Click `OK`
+
+## Adding external search URLs
+
+1. Navigate to `chrome://extensions/`
+2. Locate the extension
+3. Click `Options`
+4. Enter your search URLs
+5. Click `Save`
